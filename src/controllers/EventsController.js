@@ -15,7 +15,9 @@ router.post('/', auth, (req, res) => {
     }
   );
 });
-
+router.post('/login', (req, res) => {
+  // Votre code de connexion (avec JWT)
+});
 // Get User's Events
 router.get('/', auth, (req, res) => {
   db.all(
