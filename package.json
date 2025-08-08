@@ -1,27 +1,13 @@
 {
   "name": "event-management-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diatoufall/event-management-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/diatoufall/event-management-backend/issues"
-  },
-  "homepage": "https://github.com/diatoufall/event-management-backend#readme",
-  "description": "",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
     "sqlite3": "^5.1.7"
   }
 }
